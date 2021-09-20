@@ -25,7 +25,9 @@ class Mentor:
         self.courses_attached = []
         
 class Lecturer(Mentor):
-    def __init__(self):
+    def __init__(self, name, surname):
+        self.name = name
+        self.surname = surname
         self.courses_attached = [] #или как там
         self.grades = {}
 
